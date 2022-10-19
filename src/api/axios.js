@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE_URL = 'https://isa-vt-backend.herokuapp.com/';
+const BASE_URL = 'https://isa-vt-backend.herokuapp.com/';//this is the address of the hosted backend
 
 export default axios.create({
     baseURL: BASE_URL
